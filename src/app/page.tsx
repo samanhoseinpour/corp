@@ -6,7 +6,7 @@ export default function Home() {
     <Hero
       imgData={homeImg}
       imgAlt="car factory"
-      title="حرفه ای ترین فضا ابری در سرار کشور"
+      title="حرفه ای ترین فضای ابری در سرار کشور"
     />
   );
 }
