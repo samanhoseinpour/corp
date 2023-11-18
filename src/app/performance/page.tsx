@@ -1,3 +1,7 @@
 export default function PerformancePage() {
-  return <div>Performance Page</div>;
+  return (
+    <div>
+      <h1 className="text-heading">کارایی</h1>
+    </div>
+  );
 }

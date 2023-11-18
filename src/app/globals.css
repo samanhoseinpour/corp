@@ -7,3 +7,9 @@
 body {
   font-family: 'shahab';
 }
+
+@layer components {
+  .text-heading {
+    @apply text-[36px] text-blue-800 text-center font-semibold;
+  }
+}
