@@ -4,7 +4,7 @@ import { navLinks } from '@/constants';
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-8 py-6">
+    <nav className="flex justify-between items-center px-8 py-6 text-white">
       <Link href="/" className="font-bold text-[36px] text-blue-500">
         فضای ابری
       </Link>
