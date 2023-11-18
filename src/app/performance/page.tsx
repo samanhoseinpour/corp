@@ -1,20 +1,12 @@
-import Image from 'next/image';
-
+import { Hero } from '@/components';
 import performanceImg from 'public/performance.jpg';
 
 export default function PerformancePage() {
   return (
-    <div>
-      <h1 className="text-heading">کارایی</h1>
-
-      <div className="absolute -z-10 inset-0">
-        <Image
-          src={performanceImg}
-          alt="hero img"
-          className="object-cover"
-          fill
-        />
-      </div>
-    </div>
+    <Hero
+      imgData={performanceImg}
+      imgAlt="performance hero"
+      title="عملکرد سریع شگفت و انگیز"
+    />
   );
 }
